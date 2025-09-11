@@ -135,14 +135,8 @@ def pg_plot(T, G=None, CPMG=False, LONGITUDINAL=True, PHASE_LABEL=True, STATE_LA
         plt.show()
 
     if ECHO_COUNT:
-        def num_echoes(n):
-            """ 
-            given a pulse sequence with n RF pulses, this function returns the maximum number of echoes
-            after the last pulse, and the maximum number of total echoes in the sequence
-            """
-            return ( int((3**(n-1)-1)/2) , int((3**n-1)/4-n/2) ) 
-        
-        print ('# echoes:',echoes, ' , max # echoes:', num_echoes(len(T)-1)[-1])
+        n = len(T)-1
+        print ('# echoes:',echoes, ' , max # echoes:', int((3**n-1)/4-n/2))
     
     return (ax,FL,SL,TL)
 
