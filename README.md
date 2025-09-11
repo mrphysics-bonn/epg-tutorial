@@ -1,6 +1,10 @@
 **Phase Graph Tutorial**  
 
-A collection of educational notebooks about Extended Phase Graphs (EPGs).
+A collection of educational notebooks about Extended Phase Graphs (EPGs):
+
+- `examples.ipynb` : basic examples to plot phase graphs and compute EPGs
+- `plot_epg_states.ipynb` : plot the full EPG state evolution
+- `tse_signal_shaping.ipynb` : compute variable flip-angles for TSE signal shaping
 
 The notebooks use code from the python file `phase_graph.py`, which should be in the same directory:
 
