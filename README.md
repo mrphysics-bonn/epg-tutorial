@@ -6,6 +6,7 @@ A collection of educational notebooks about Extended Phase Graphs (EPGs):
 - `epg_examples.ipynb` : basic EPG examples
 - `plot_epg_states.ipynb` : plot the EPG state evolution
 - `tse_signal_shaping.ipynb` : variable flip-angles for TSE signal shaping
+- `epgOptimization_esmrmb25.ipynb` : ESMRMB 2025 tutorial notebook
 
 The notebooks imports functionality from `epg_code.py`, which should be in the same directory:
 
